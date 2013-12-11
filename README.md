@@ -12,7 +12,7 @@ Add the files to your project in folder FPSSinglePlatformHelper (FPSSinglePlatfo
     
 After that, here's how you request the JSON:
 
-    FPSSinglePlatformHelper *spHelper = [[FPSSinglePlatformHelper alloc] initWithClientID:@"Client_ID" andSigningKey:@"Signing_KEY"];
+    FPSSinglePlatformHelper *spHelper = [[FPSSinglePlatformHelper alloc] initWithClientID:kClientID andSigningKey:kSigningKey];
     spHelper.delegate = self;
     //(ex: Mint 400 MCAllister Street San Francisco, CA 94103)
     [spHelper menuForPlace:@"Name of the place" withAddress:@"Address" city:@"City" state:@"State" zip:@"Zip"];
