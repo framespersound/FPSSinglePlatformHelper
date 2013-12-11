@@ -24,5 +24,6 @@ Implement the delagate method in order to receive the JSON:
     {
         if(isFound && isMenu) {
           NSLog(@"%@", jsonObj);
+        }
     }
     
