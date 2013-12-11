@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7B7147941858C35400DFF956 /* FPSSinglePlatformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7147901858C35400DFF956 /* FPSSinglePlatformHelper.m */; };
 		7B7147951858C35400DFF956 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7147931858C35400DFF956 /* GTMStringEncoding.m */; };
+		7B7147981858D99F00DFF956 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7B7147961858D99F00DFF956 /* LICENSE */; };
+		7B7147991858D99F00DFF956 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B7147971858D99F00DFF956 /* README.md */; };
 		7B9B52BE18565A460044A355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9B52BD18565A460044A355 /* Foundation.framework */; };
 		7B9B52C018565A460044A355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9B52BF18565A460044A355 /* CoreGraphics.framework */; };
 		7B9B52C218565A460044A355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9B52C118565A460044A355 /* UIKit.framework */; };
@@ -26,6 +28,8 @@
 		7B7147911858C35400DFF956 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		7B7147921858C35400DFF956 /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStringEncoding.h; sourceTree = "<group>"; };
 		7B7147931858C35400DFF956 /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncoding.m; sourceTree = "<group>"; };
+		7B7147961858D99F00DFF956 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B7147971858D99F00DFF956 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		7B9B52BA18565A460044A355 /* FPSSinglePlatformHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPSSinglePlatformHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9B52BD18565A460044A355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B9B52BF18565A460044A355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +76,8 @@
 		7B9B52B118565A460044A355 = {
 			isa = PBXGroup;
 			children = (
+				7B7147961858D99F00DFF956 /* LICENSE */,
+				7B7147971858D99F00DFF956 /* README.md */,
 				7B9B52C318565A460044A355 /* FPSSinglePlatformHelper */,
 				7B9B52BC18565A460044A355 /* Frameworks */,
 				7B9B52BB18565A460044A355 /* Products */,
@@ -177,6 +183,8 @@
 			files = (
 				7B9B52D618565A460044A355 /* Images.xcassets in Resources */,
 				7B9B52C818565A460044A355 /* InfoPlist.strings in Resources */,
+				7B7147991858D99F00DFF956 /* README.md in Resources */,
+				7B7147981858D99F00DFF956 /* LICENSE in Resources */,
 				7B9B52D118565A460044A355 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
