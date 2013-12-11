@@ -22,21 +22,7 @@ Implement the delagate method in order to receive the JSON:
 
     - (void)JSON:(id)jsonObj foundPlace:(BOOL)isFound withMenu:(BOOL)isMenu;
     {
-        if(isFound) {
+        if(isFound && isMenu) {
           NSLog(@"%@", jsonObj);
-          NSError *error;
-          NSData *jsonData = [NSJSONSerialization dataWithJSONObject:jsonObj options:NSJSONWritingPrettyPrinted     error:&error];
-          NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-          if(isMenu) {
-              [jsonObj objectForKey:@"menus"];
-              self.textView.text = jsonString;
-          }
-          else {
-              self.textView.text = @"Place is found with no menu information";
-          }
-      }
-      else {
-          self.textView.text = @"Can not find place using location API";
-      }
     }
     
