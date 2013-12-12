@@ -17,7 +17,7 @@ After that, here's how you request the JSON:
     //(ex: Mint 400 MCAllister Street San Francisco, CA 94103)
     [spHelper menuForPlace:@"Name of the place" withAddress:@"Address" city:@"City" state:@"State" zip:@"Zip"];
     
-Implement the delagate method in order to receive the JSON:
+Implement the delegate method in order to receive the JSON:
     
 
     - (void)JSON:(id)jsonObj foundPlace:(BOOL)isFound withMenu:(BOOL)isMenu;
